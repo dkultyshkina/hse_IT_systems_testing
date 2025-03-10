@@ -16,7 +16,7 @@ public class ProductSelectionTest extends BaseTest {
                             .clickToCart()
                             .checkCart();
     assertEquals(products.getSize(), 2);
-    assertEquals(products.get(0).getName(), "Samsung galaxy s6");
-    assertEquals(products.get(1).getName(), "Sony vaio i5");
+    assertEquals(products.get(1).getName(), "Samsung galaxy s6");
+    assertEquals(products.get(0).getName(), "Sony vaio i5");
   }
 }
